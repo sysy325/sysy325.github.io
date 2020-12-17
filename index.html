@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:  #f0d4f0;
+  background-image: url('img/by2.jpg');
+}
+
+/
+.header {
+  padding: 30px;
+  text-align: center;
+  color: white;
+
+}
+.header h1 {
+  font-size: 50px;
+  color: white;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff9fb;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  font-size: 5px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<p><img src="img/my.png"></p>
+
+
+</div>
+
+<div class="topnav">
+  <a href="#">home</a>
+  <a href="index4.html" style="float:right">Content programming</a>
+  <a href="index2.html" style="float:right">Video design</a>
+  <a href="index3.html" style="float:right">Content design</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Seo Yoon Photo</h2>
+      <h5>2020</h5>
+       <img src="img/sypt.jpg"> <img src="img/sypt2.jpg"> <img src="img/sypt3.jpg">
+      <p>These are the most recent pictures I took. Usually, I like taking pictures very much. I like taking pictures with a camera rather than taking pictures with media, so I often take Polaroid pictures or </p>
+    </div>
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Main Profile</h2>
+      <p><img src="img/me.jpg"></p>
+      <p>Name:Jeong Seo Yoon</p>
+      <p>2001.12.16</p>
+      <p>E-mail:sysyjsy5011@naver.com</p>
+    </div>
+    <div class="card">
+      <h3>SNS</h3>
+      <h4>instagram</h4>
+      <p>@j_seo_77</p>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2>sysyjsy5011@naver.com</h2>
+  <h2>j_seo_77</h2>
+</div>
+
+</body>
+</html>
